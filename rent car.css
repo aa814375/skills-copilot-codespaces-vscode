@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button.action-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 80%;
+}
+
+button.action-btn:hover {
+    background-color: #45a049;
+}
+
+button.action-btn:focus {
+    outline: none;
+}
+
+/* Vehicle List Styling */
+.vehicle-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.vehicle-item {
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.vehicle-item h2 {
+    margin: 0;
+    color: #333;
+}
+
+.vehicle-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.vehicle-item .price {
+    color: #4CAF50;
+    font-weight: bold;
+}
